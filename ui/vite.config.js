@@ -9,6 +9,9 @@ export default defineConfig({
     minify: 'terser'
   },
   server: {
-    port: 5173
+    port: 5173,
+    host: '0.0.0.0',
+    cors: true,
+    middlewareMode: false
   }
 })
