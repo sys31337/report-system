@@ -29,7 +29,7 @@ ui_page 'ui/dist/index.html'
 
 files {
     'ui/dist/index.html',
-    'ui/dist/**/*'
+    'ui/dist/assets/**/*'
 }
 
 dependencies {
